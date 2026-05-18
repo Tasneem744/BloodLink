@@ -1,0 +1,54 @@
+html, body, #root {
+  height: 100%;
+}
+
+main.min-vh-100 {
+  min-height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+button,
+.btn {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
+}
+
+
+.table {
+  background-color: #fff;
+}
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+
+.container,
+.container-fluid {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

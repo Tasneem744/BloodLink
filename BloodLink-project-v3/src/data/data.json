@@ -1,0 +1,61 @@
+{
+  "donation_places": [
+  {
+    "id": 1,
+    "name": "Egyptian Blood Bank",
+    "city": "Cairo",
+    "location": "https://maps.app.goo.gl/NnBu9MseSaGAhJrT7",
+    "phone": "0223456789",
+    "available_time": "8:00 AM – 4:00 PM"
+  },
+  {
+    "id": 2,
+    "name": "Alexandria Blood Donation Center",
+    "city": "Alexandria",
+    "location": "https://maps.app.goo.gl/RX8qonNT1Gc9GYWB9",
+    "phone": "0334567890",
+    "available_time": "9:00 AM – 5:00 PM"
+  },
+  {
+    "id": 3,
+    "name": "National Blood Transfusion Center",
+    "city": "Giza",
+    "location": "https://maps.app.goo.gl/eXv3P7t9M4pv4kXb9",
+    "phone": "01234567890",
+    "available_time": "8:30 AM – 3:30 PM"
+  },
+  {
+    "id": 4,
+    "name": "Aswan Specialized Hospital",
+    "city": "Aswan",
+    "location": "https://maps.app.goo.gl/S8wVE5MVN3PMMvqb9",
+    "phone": "0971234567",
+    "available_time": "9:00 AM – 2:00 PM"
+  },
+  {
+    "id": 5,
+    "name": "Assiut University Hospital",
+    "city": "Asyut",
+    "location": "https://maps.app.goo.gl/YfWDe3K5cAWncuY57",
+    "phone": "0887654321",
+    "available_time": "8:00 AM – 4:00 PM"
+  },
+  {
+    "id": 6,
+    "name": "Beni Suef General Hospital",
+    "city": "Beni Suef",
+    "location": "https://maps.app.goo.gl/eyNWXhXEF8pq5PEu6",
+    "phone": "0228765432",
+    "available_time": "9:00 AM – 5:00 PM"
+  },
+  {
+    "id": 7,
+    "name": "Egyptian Red Crescent Hospital",
+    "city": "Menoufia",
+    "location": "https://maps.app.goo.gl/cJJZHsMGv3K1gHGR9",
+    "phone": "0501234567",
+    "available_time": "8:00 AM – 3:00 PM"
+  }
+  ],
+  "requests": []
+}

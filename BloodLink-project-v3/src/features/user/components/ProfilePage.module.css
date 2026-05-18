@@ -1,0 +1,173 @@
+.bg {
+  background: #f7f7f7;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.mainContainer {
+  max-width: 1100px;
+}
+
+.alignStart {
+  align-items: flex-start !important;
+}
+
+.sidebar {
+  padding: 15px;
+}
+
+.profileBox {
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.08);
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.bloodType {
+  display: inline-block;
+  padding: 6px 12px;
+  background: #ffe6e6;
+  color: #c0392b;
+  font-weight: bold;
+  border-radius: 12px;
+  margin-top: 8px;
+}
+
+.sidebarBtn {
+  width: 100%;
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 30px;
+  background: white !important;
+  border: 2px solid #dc3545 !important;
+  color: #dc3545 !important;
+  font-weight: 600;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.sidebarBtn:hover {
+  background: #dc3545 !important;
+  color: white !important;
+  border-color: #dc3545 !important;
+}
+
+.activeBtn {
+  background: #dc3545 !important;
+  color: white !important;
+  border-color: #dc3545 !important;
+}
+
+.mainContent {
+  padding-left: 10px;
+}
+
+.statCard {
+  padding: 25px;
+  text-align: left;
+  margin-bottom: 20px;
+  border-radius: 18px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  background-color: inherit;
+  border: none;
+}
+
+.statCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+.statRed {
+  background-color: #ffe5e5 !important;
+  border: 2px solid #ffbcbc !important;
+}
+
+.statGreen {
+  background-color: #e9ffe9 !important;
+  border: 2px solid #97c297 !important;
+}
+
+.statCard h5 {
+  color: #555;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.statCard h2 {
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.infoLabel {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 0;
+}
+
+.infoValue {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.statusCompleted,
+.statusPending {
+  padding: 6px 14px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.statusCompleted {
+  background: #d4ffd8;
+  color: #218c2c;
+}
+
+.statusPending {
+  background: #fff4c4;
+  color: #b38b00;
+}
+
+.star-rating.readonly {
+  display: flex;
+  direction: ltr;
+  pointer-events: none;
+}
+
+@media (max-width: 576px) {
+  .statusFix {
+    position: static !important;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 12px !important;  
+    padding: 4px 10px !important;
+  }
+
+  .historyCardHeader h5 {
+    font-size: 16px !important; 
+  }
+
+  .infoValue {
+    font-size: 15px !important; 
+  }
+
+  .infoLabel {
+    font-size: 12px !important; 
+  }
+  .request-date {
+    font-size: 13px !important;
+  }
+
+  .rate-btn {
+    font-size: 12px !important;
+    padding: 4px 8px !important;
+    height: 30px !important;
+  }
+}
