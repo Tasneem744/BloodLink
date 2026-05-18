@@ -1,16 +1,34 @@
-# React + Vite
+# BloodLink - Donation Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web platform designed to connect blood donors with recipients efficiently.  
+The system helps manage donation requests, track their status, and provide access to donation centers.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Overview
 
-## React Compiler
+BloodLink aims to simplify and organize the blood donation process by enabling communication between donors and recipients.  
+Users can search for donation centers, send blood requests, and track the status of their requests.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Search for nearby donation centers
+- Send blood donation requests based on blood type and location
+- Track request status (Pending, Accepted, Rejected)
+- View request history and update requests
+- Manage user profile
+
+---
+
+## Tech Stack
+
+- React.js (Vite)
+- HTML, CSS, JavaScript
+- Local Storage for data persistence
+- Git & GitHub for version control
+
+---
+
+## Project Structure
